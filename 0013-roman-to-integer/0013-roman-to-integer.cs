@@ -15,12 +15,11 @@ public class Solution {
         int sum = 0;
 
         for (int i = 0; i < s.Length; i++) {
-            int current = GetValue(s[i]);
 
-            if (i < s.Length - 1 && current < GetValue(s[i + 1])) {
-                sum -= current;
+            if (i < s.Length - 1 && GetValue(s[i]) < GetValue(s[i + 1])) {
+                sum -= GetValue(s[i]);;
             } else {
-                sum += current;
+                sum += GetValue(s[i]);;
             }
         }
 
