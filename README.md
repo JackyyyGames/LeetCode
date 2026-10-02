@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0009-palindrome-number](https://github.com/JackyyyGames/LeetCode/tree/main/0009-palindrome-number/) | Easy |
 | [0013-roman-to-integer](https://github.com/JackyyyGames/LeetCode/tree/main/0013-roman-to-integer/) | Easy |
 ## String
 | Problem Name | Difficulty |
